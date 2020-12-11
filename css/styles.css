@@ -154,16 +154,16 @@ body {
   background-color: #e6332a;
 }
 
-main aside {
-  background-color: #969696;
+main .aside-container {
+  background-color: #969696 !important;
   height: 700px;
 }
 
-main aside nav {
+main .aside-container nav {
   margin-top: 7em;
 }
 
-main aside nav .second {
+main .aside-container nav .second {
   margin-top: 2em;
 }
 

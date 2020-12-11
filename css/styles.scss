@@ -119,8 +119,8 @@ body{
 }
 
 main{
-    aside{
-        background-color: #969696;
+    .aside-container{
+        background-color: #969696!important;
         height: 700px;
         nav{
             margin-top:7em;
