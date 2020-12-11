@@ -1,0 +1,119 @@
+body{
+    font-family:'Calibri',sans-serif;
+}
+
+.header-bandeau{
+    position: relative;
+    .header-text{
+        color: black;
+        position: absolute;
+        top:20%;
+        left: 3%;
+        text-shadow: white 0.1em 0.1em 0.2em;
+    }
+}
+
+.arrow-left{
+    position: relative;
+    animation: left 1s infinite linear alternate;
+}
+
+@keyframes left{
+	0% {position:relative; right:-100px;; opacity: 0}
+	50% {position:relative; right:-85px; opacity: 1}
+	100% {position:relative; right:-70px; opacity: 1}
+
+}
+
+.actu-container,.formation-container{
+    margin:5em 8em;
+    h2{
+        margin-bottom: 2em;
+        &::before{
+            content: "";
+            position: absolute;
+            left: 150px;
+            bottom: 50px;
+            display: block;
+            width: 3.5rem;
+            border-bottom: .3rem solid #e6332a;
+        }
+    }
+}
+
+.events{
+    &::after{
+        content: "";
+        position: absolute;
+        left: 17px;
+        bottom: 820px;
+        display: block;
+        width: 3.5rem;
+        border-bottom: .3rem solid #e6332a;
+    }
+}
+
+.events-bloc{
+    margin-top:4em;
+}
+.events-link, .card-title{
+    color: black;
+    &:hover{
+        color:#e6332a;
+        text-decoration: none!important;
+    }
+}
+
+.card-img-top,.courses{
+    &:hover{
+        transform: scale(1.05);
+        transition: transform 0.25s ease-in;
+    }
+}
+
+.courses{
+    box-shadow: 1px 1px 1px black;
+}
+
+.formation{
+    background-color:black;
+    .formation-container{
+        padding:4em 0;
+        p{
+            color: #e6332a!important;
+        }
+        h2{
+            &::before{
+                content: "";
+                position: absolute;
+                left: 144px;
+                bottom: -1380px;
+                display: block;
+                width: 3.5rem;
+                border-bottom: .3rem solid #e6332a;
+            }
+        }
+    }
+    
+}
+
+.courses-link:hover{
+    color:white!important;
+}
+
+.nav-pills{
+    .active{
+        background-color: white!important;
+        border: 1px solid #e6332a;
+        box-shadow: 1px 1px 1px #e6332a;
+    }
+}
+
+.nav-footer-link{
+    border:0.5px solid black;
+    border-radius: 26px;
+    margin: 0 1em;
+    &:hover{
+        background-color: #e6332a;
+    }
+}
