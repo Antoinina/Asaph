@@ -117,3 +117,26 @@ body{
         background-color: #e6332a;
     }
 }
+
+main{
+    aside{
+        background-color: #969696;
+        height: 700px;
+        nav{
+            margin-top:7em;
+
+            .second{
+                margin-top:2em;
+            }
+        }
+    }
+}
+
+.form-control:focus {
+    transform: scale(1.025);
+    transition: transform 0.25s ease;    
+}
+.text-shadow{
+    text-shadow: black 1px 1px 1px;
+    margin-bottom:1em;
+}

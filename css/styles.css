@@ -153,4 +153,31 @@ body {
 .nav-footer-link:hover {
   background-color: #e6332a;
 }
+
+main aside {
+  background-color: #969696;
+  height: 700px;
+}
+
+main aside nav {
+  margin-top: 7em;
+}
+
+main aside nav .second {
+  margin-top: 2em;
+}
+
+.form-control:focus {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+.text-shadow {
+  text-shadow: black 1px 1px 1px;
+  margin-bottom: 1em;
+}
 /*# sourceMappingURL=styles.css.map */
